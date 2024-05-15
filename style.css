@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+}
+*{
+    scroll-behavior: smooth;
+}
+nav{
+
+    height: 4vmax;
+    display: flex;
+    font-size: larger;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.167);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 1000;
+    
+}
+.left{
+    
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.left  img{
+    width: 5.5vmax;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.mid{
+    
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: stretch;
+}
+.mid >a{
+    text-decoration: none;
+    color: black;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+}
+.mid>a:hover{
+    border-bottom: 1px solid salmon;
+    color: crimson;
+}
+.right{
+    
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+ /*.firstimg{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ .secondimg{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}*/
+.right >img{
+    width: 2.5vmax;
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+   /* margin-right: 30%;*/
+
+}
+/*----------------------------------------------home section-------------------------------------------*/
+.home{
+    display: flex;
+    height: 90vh;
+    
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    
+    background-color: rgba(128, 128, 128, 0.274);
+    
+    
+}
+.container2{
+    width: 100%;
+    height: 100%;
+   
+    
+    
+}
+.container2 >img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}
+.container1{
+    display: flex;
+    flex-direction: column;
+    padding: 2vmax;
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+.container1 >h1{
+    font-size: 8vmax;
+    color:crimson;
+    
+    margin-top: -1%;
+}
+.container1 >h3{
+    font-size: 2vmax;
+    color:crimson;
+    
+    margin-top: -12%;
+    
+}
+.container1 >p{
+    font-size: 1.2vmax;
+    color: crimson;
+    
+    margin-top: -1%;
+    
+}
+.container1 >button{
+    width: 10vmax;
+    border: none;
+    border-radius: 2vmax;
+    padding: 0.7vmax;
+    background-color:crimson;
+    color: white;
+    cursor: pointer;
+}
+.container1 >button:hover{
+    background-color: aqua;
+}
+
+/*-----------------------------------product section------------------------------------------------*/
+
+
+section{
+    height: 90vmax;
+    
+    border: 2px solid red;
+    background-color: rgba(128, 128, 128, 0.279);
+    
+    
+}
+section >h1{
+    margin-left: 100px;
+    margin-top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.link-bar >a{
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+.mainContainer{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.product >h5{
+    margin: 1.5%;
+
+}
+.product >h4{
+    margin: 2%;
+}
+.product >img{
+    width: 20vmax;
+}
+
+footer{
+    background-color: black;
+    margin-top: 10vmax;
+   
+    padding: 2vmax;
+    color: white;
+    display: flex;
+
+}
+.left-Footer{
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-Footer >h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left-Footer >p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.left-Footer >img{
+    width: 10vmax;
+    margin: 1vmax;
+    cursor: pointer;
+}
+.mid-Footer{
+    
+    width: 60%;
+    text-align: center;
+}
+.mid-Footer >h1{
+    font-size: 4vmax;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.mid-Footer >p{
+    max-width: 60%;
+    margin: 1vmax auto;
+}
+
+.right-Footer{
+    
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-Footer >h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5vmax;
+    text-decoration: underline;
+}
+.right-Footer >a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0.5vmax;
+}
